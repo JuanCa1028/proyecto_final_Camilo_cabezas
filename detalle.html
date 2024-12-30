@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de Cotización</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Detalles de Cotización</h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Tus Servicios Seleccionados</h2>
+            <ul id="detalle-servicios"></ul>
+            <h3>Total Estimado: $<span id="total-detalle">0.00</span></h3>
+        </section>
+        <section>
+            <h2>Calcula tu Cotización</h2>
+            <form id="form-cotizacion">
+                <label for="dias">Días para completar el proyecto:</label>
+                <input type="number" id="dias" min="1" required>
+                <label for="impuestos">Porcentaje de impuestos (%):</label>
+                <input type="number" id="impuestos" min="0" max="100" required>
+                <button type="submit" class="btn">Calcular Cotización Final</button>
+            </form>
+            <h3 id="resultado-final"></h3>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Freelance Cotizador. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/detalle.js"></script>
+</body>
+</html>

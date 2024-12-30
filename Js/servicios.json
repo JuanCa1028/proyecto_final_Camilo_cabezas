@@ -1,0 +1,6 @@
+[
+    { "id": 1, "nombre": "Diseño Web", "precio": 1200 },
+    { "id": 2, "nombre": "Redacción de Contenido", "precio": 800 },
+    { "id": 3, "nombre": "SEO y Marketing Digital", "precio": 1000 },
+    { "id": 4, "nombre": "Mantenimiento de Redes Sociales", "precio": 500 }
+]
